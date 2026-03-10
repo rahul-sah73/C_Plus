@@ -1,0 +1,58 @@
+topic 1
+
+Time complexcity --> Its  amount of Time Taken By an algorithm To Run 
+
+Why ? ---> For Making Better Programs  , Comparism of Algorithm 
+
+** Notation **
+Big Notation = O --> for Upper bound , At max 
+Theta  = θ  -->  For average Case complexity 
+Omega  = Ω   --->  Lower Bound 
+
+
+Constant Time ---->   O ( 1 )
+Linear Time ---->   O ( n )
+Logarithmic Time ---->   O ( logn )
+Quadratic Time ---->   O ( n^2 )
+Cubic time  --->  O ( n^3 )
+
+O ( 2! )        ^
+O ( 2^n )       |
+O ( n^3 )       |
+O ( n^2 )       |    complexcity incerease 
+O ( n logn )    |
+O ( n )         |
+O ( logn )      |
+O ( 1 )         |
+
+
+f(n) = 2 n^3 + 3 n   ---> complexcity = O( n^2 )
+f(n) = 4 n^4 + 3 n^3 ----> complexcity = O( n^4 )
+f(n) = 123001  ----->   complexcity = O( 1 )   
+f(n) = 5 n^2 + log n   ---> complexcity = O( n^2 )   since  N^2 is greater than log n 
+
+Case 1 ...
+
+for(){  ---> O(M)
+
+}                                 total = O( M + N )
+for (){  ----> O(N)
+
+}
+
+Case 2 ...
+
+for (){  ----> O(m)
+    for(){  ----->O(n)              total = O(m * n)
+
+    }
+}
+
+
+Topic 2 
+
+Space complexcity
+----> Kitne memory algorithm lega 
+
+int a , b  ----> O(1)
+int  arr[5] ---> O(1)
